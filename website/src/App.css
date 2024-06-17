@@ -1,0 +1,26 @@
+/* * {
+  cursor: none;
+} */
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: rgb(26 26 27);
+}
+
+.title {
+  font-size: 1rem;
+  color: white;
+}
+
+.cursor {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
