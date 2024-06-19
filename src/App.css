@@ -5,14 +5,14 @@
 .App {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   height: 100vh;
   background-color: rgb(26 26 27);
 }
 
-.title {
-  font-size: 1rem;
-  color: white;
+.content {
+  width: 62%;
+  padding: 3%;
 }
 
 .cursor {
@@ -24,4 +24,70 @@
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: opacity 0.2s ease, height 0.2s ease, width 0.2s ease;
+}
+
+.sidebar {
+  width: 13%;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10%;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.button:hover {
+  border-radius: 20px;
+  background: rgb(60, 60, 60);
+  font-size: 1.1rem;
+}
+
+/* Text styles */
+.title {
+  font-size: 8rem;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 3rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sub-heading {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  transition: color 0.2s ease;
+}
+
+.text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0.4rem 0;
+  transition: color 0.2s ease;
+}
+
+.shadow {
+  color: rgb(120, 120, 120);
+}
+
+::selection {
+  background-color: rgb(80, 80, 80);
+  opacity: 0.2;
 }
