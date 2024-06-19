@@ -23,7 +23,6 @@ function App() {
         return <HomePage />
     }
   }
-  console.log(currentPage);
 
   return (
     <div className="App">
