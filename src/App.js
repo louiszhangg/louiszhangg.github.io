@@ -2,14 +2,36 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Cursor from './Cursor.js';
 import Sidebar from './Sidebar';
-import Content from './Content';
+import HomePage from './Pages/HomePage';
+import AboutPage from './Pages/AboutPage';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("CONTENT");
+
+  const changePage = (content) => {
+    setCurrentPage(content);
+  }
+
+  // Make sure the case and the button text align PERFECTLY
+  const renderPage = () => {
+    switch (currentPage) {
+      case "CONTENT":
+        return <HomePage />
+      case "About":
+        return <AboutPage />
+      default:
+        return <HomePage />
+    }
+  }
+  console.log(currentPage);
+
   return (
     <div className="App">
       <Cursor />
-      <Sidebar />
-      <Content />
+      <Sidebar changeContent={changePage}/>
+      <div className="content">
+        {renderPage()}
+      </div>
     </div>
   );
 }

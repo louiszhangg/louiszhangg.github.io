@@ -3,11 +3,12 @@ import { useState, useEffect } from 'react';
 import Button from './Button.js';
 import ContentButton from './ContentButton.js';
 
-function Sidebar() {
+function Sidebar({changeContent}) {
     const [clickedButton, setClickedButton] = useState("CONTENT"); 
 
     const handleSidebarClick = (clickedId) => {
         setClickedButton(clickedId);
+        changeContent(clickedId);
     }
 
     return (
