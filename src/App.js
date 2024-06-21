@@ -2,8 +2,9 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Cursor from './Cursor.js';
 import Sidebar from './Sidebar';
-import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import OopsPage from './pages/OopsPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("CONTENT");
@@ -20,7 +21,7 @@ function App() {
       case "About":
         return <AboutPage />
       default:
-        return <HomePage />
+        return <OopsPage />
     }
   }
 

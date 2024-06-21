@@ -4,21 +4,17 @@
 
 .App {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   height: 100vh;
   background-color: rgb(26 26 27);
-}
-
-.content {
-  width: 62%;
-  padding: 3%;
 }
 
 .cursor {
   background-color: white;
   border-radius: 50%;
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   pointer-events: none;
@@ -26,10 +22,25 @@
   transition: opacity 0.2s ease, height 0.2s ease, width 0.2s ease;
 }
 
+.content {
+  position: relative;
+  top: 30vh;
+  width: 55%;
+}
+
+.split {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
 .sidebar {
+  position: relative;
+  top: 30vh;
   width: 13%;
 }
 
+/* Button styling */
 .button {
   display: flex;
   width: 100%;
@@ -52,6 +63,7 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.2rem;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -62,15 +74,19 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 .sub-heading {
   color: white;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 350;
+  font-weight: 500;
   font-style: normal;
   transition: color 0.2s ease;
+  line-height: 1.5;
 }
 
 .text {

@@ -14,7 +14,7 @@ function Sidebar({changeContent}) {
     return (
         <div className="sidebar">
             <ContentButton text="CONTENT" onclick={handleSidebarClick} currentButton={clickedButton}/>
-            <Button text="About" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+            <Button text="About" year="" onclick={handleSidebarClick} currentButton={clickedButton}/>
             <Button text="Project" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
             <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
         </div>
