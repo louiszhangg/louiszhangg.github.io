@@ -37,15 +37,30 @@
   gap: 2vw;
 }
 
-.sidebar {
+.sidebar-container {
   position: relative;
-  width: 13%;
+  min-width: 130px;
+  width: 15%;
+}
+
+.sidebar {
+  position: fixed;
+  height: 60vh;
+  min-width: 120px;
+  width: 15%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* hide scrollbar for Internet Explorer, Edge */
+  scrollbar-width: none; /* hide scrollbar for Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none; /* hide scrollbar for Chrome, Safari, and Opera */
 }
 
 /* Button styling */
 .button {
   display: flex;
-  width: 100%;
+  width: 80%;
   justify-content: space-between;
   padding: 0 10%;
   transition: font-size 0.2s ease-in-out;

@@ -12,11 +12,22 @@ function Sidebar({changeContent}) {
     }
 
     return (
-        <div className="sidebar">
-            <ContentButton text="CONTENT" onclick={handleSidebarClick} currentButton={clickedButton}/>
-            <Button text="About" year="" onclick={handleSidebarClick} currentButton={clickedButton}/>
-            <Button text="Project" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
-            <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+        <div className="sidebar-container">
+            <div className="sidebar">
+                <ContentButton text="CONTENT" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="About" year="" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="CV" year="" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="MinecraftAI" year="2023" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="Salon App" year="2023" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="VTHacks" year="2023" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="CS Course" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                {/* <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="VTHacks" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/>
+                <Button text="Bottomr" year="2022" onclick={handleSidebarClick} currentButton={clickedButton}/> */}
+            </div>
         </div>
     )
 }
