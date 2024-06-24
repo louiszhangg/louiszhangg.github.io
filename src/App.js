@@ -1,10 +1,11 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import Cursor from './Cursor.js';
-import Sidebar from './Sidebar';
+import Cursor from './components/Cursor.js';
+import Sidebar from './components/Sidebar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import OopsPage from './pages/OopsPage';
+import CVPage from './pages/CVPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("CONTENT");
@@ -20,6 +21,8 @@ function App() {
         return <HomePage />
       case "About":
         return <AboutPage />
+      case "CV":
+        return <CVPage />
       default:
         return <OopsPage />
     }
