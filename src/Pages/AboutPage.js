@@ -27,6 +27,11 @@ function AboutPage() {
                 <p className="text">I aspire to work as a software engineer, creating products that enhance lives and spark inspiration.</p>
                 <br></br>
                 <p className="text"><em>Think I could be a good fit for your company? Feel free to contact me below!</em></p>
+                <p className="text">I believe computer science is far from boring. Things like web development, for instance, can stir hearts and minds, inspiring creativity and innovations in others.</p>
+                <p className="text">I believe computer science is far from boring. Things like web development, for instance, can stir hearts and minds, inspiring creativity and innovations in others.</p>
+                <p className="text">I believe computer science is far from boring. Things like web development, for instance, can stir hearts and minds, inspiring creativity and innovations in others.</p>
+                <p className="text">I believe computer science is far from boring. Things like web development, for instance, can stir hearts and minds, inspiring creativity and innovations in others.</p>
+
             </div>
         </div>
     )

@@ -4,16 +4,19 @@
 
 .App {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
-  height: 100vh;
+  height: auto;
+  min-height: 60vh;
   background-color: rgb(26 26 27);
+  padding: 30vh 0 10vh 0 ;
 }
 
 .cursor {
-  background-color: white;
+  background-color: rgb(170, 170, 170);
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -24,8 +27,8 @@
 
 .content {
   position: relative;
-  top: 30vh;
   width: 55%;
+  height: auto;
 }
 
 .split {
@@ -36,7 +39,6 @@
 
 .sidebar {
   position: relative;
-  top: 30vh;
   width: 13%;
 }
 
