@@ -4,8 +4,12 @@ import Cursor from './components/Cursor.js';
 import Sidebar from './components/Sidebar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import OopsPage from './pages/OopsPage';
 import CVPage from './pages/CVPage';
+import MinecraftPage from './pages/MinecraftPage';
+import SalonPage from './pages/SalonPage';
+import HacksPage from './pages/HacksPage';
+import CoursePage from './pages/CoursePage';
+import OopsPage from './pages/OopsPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("CONTENT");
@@ -23,6 +27,14 @@ function App() {
         return <AboutPage />
       case "CV":
         return <CVPage />
+      case "MinecraftAI":
+        return <MinecraftPage />
+      case "Salon App":
+        return <SalonPage />
+      case "VTHacks":
+        return <HacksPage />
+      case "CS Course":
+        return <CoursePage />
       default:
         return <OopsPage />
     }
