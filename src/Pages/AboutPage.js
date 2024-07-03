@@ -22,7 +22,7 @@ function AboutPage() {
                 <br></br>
                 <p className="text">I believe computer science is far from boring. Things like web development, for instance, can stir hearts and minds, inspiring creativity and innovations in others.</p>
                 <br></br>
-                <p className="text">Outside of tech, I express my creativity through photography and music, and I find inspiration by travelling and hiking.</p>
+                <p className="text">Outside of tech, I express my creativity through photography and music, and I find inspiration by travelling and hiking. I'm also passionate about advocating for more livable and sustainable cities.</p>
                 <br></br>
                 <p className="text">I aspire to work as a software engineer, creating products that enhance lives and spark inspiration.</p>
                 <br></br>
