@@ -132,6 +132,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  letter-spacing: 0.05rem;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -144,7 +145,6 @@
   font-weight: 500;
   font-style: normal;
   transition: color 0.2s ease;
-  /* line-height: 1.5; */
 }
 
 .text {
