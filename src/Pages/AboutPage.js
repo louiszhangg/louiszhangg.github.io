@@ -14,7 +14,12 @@ function AboutPage() {
                     objectFit: 'contain',
                 }}
             />
-            <div>
+            <div 
+                style={{
+                    width: '54%',
+                    margin: '0 0 0 2%'
+                }}
+            >
                 <h3 className="heading">Hey! &#128075;</h3>
                 <p className="text">My name is Haoan Zhang, but I usually go by Louis.</p>
                 <br></br>

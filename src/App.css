@@ -40,7 +40,7 @@
 .split {
   display: flex;
   justify-content: flex-start;
-  gap: 2vw;
+  flex-wrap: wrap;
 }
 
 .space-between {

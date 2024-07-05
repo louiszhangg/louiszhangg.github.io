@@ -1,0 +1,19 @@
+.left-column {
+    box-sizing: border-box;
+    flex: 0 0 calc(30% - 2px);
+    margin: 0 0 8px 0;
+}
+
+.right-column {
+    box-sizing: border-box;
+    flex: 0 0 calc(70% - 2px);
+    margin: 0 0 8px 0;
+}
+
+.left-column:last-child {
+    margin: 0;
+}
+
+.right-column:last-child {
+    margin: 0;
+}

@@ -1,9 +1,0 @@
-.left-column {
-    box-sizing: border-box;
-    flex: 0 0 calc(25% - 2px);
-}
-
-.right-column {
-    box-sizing: border-box;
-    flex: 0 0 calc(75% - 2px);
-}
