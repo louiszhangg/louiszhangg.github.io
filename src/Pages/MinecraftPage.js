@@ -22,6 +22,7 @@ function MinecraftPage() {
             </div>
 
             <br></br>
+            <h2 className="sub-heading"><strong>Gallery</strong></h2>
             <img 
                 src={ai_demo}
                 alt="A GIF demonstration of the Minecraft AI"
