@@ -114,6 +114,10 @@
 }
 
 /* Text styling */
+.center {
+  text-align: center;
+}
+
 .title {
   font-size: 8rem;
   color: white;
