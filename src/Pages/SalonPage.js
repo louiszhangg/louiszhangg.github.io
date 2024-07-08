@@ -1,9 +1,9 @@
 import '../App.css';
-import home1 from '../assets/home1.png';
-import admin1 from '../assets/admin1.png';
-import admin2 from '../assets/admin2.png';
-import customer1 from '../assets/customer1.png';
-import customer2 from '../assets/customer2.png';
+import home1 from '../assets/nail-salon/home-1.png';
+import admin1 from '../assets/nail-salon/admin-1.png';
+import admin2 from '../assets/nail-salon/admin-2.png';
+import customer1 from '../assets/nail-salon/customer-1.png';
+import customer2 from '../assets/nail-salon/customer-2.png';
 
 
 function SalonPage() {
@@ -20,8 +20,12 @@ function SalonPage() {
                 <p className="right-column text">For creating the database</p>
                 <p className="left-column sub-heading">Java Spring Framework</p>
                 <p className="right-column text">Java Framework used to map requests to the database</p>
+                <p className="left-column sub-heading">CSS</p>
+                <p className="right-column text">For styling the website</p>
                 <p className="left-column sub-heading">Typescript</p>
                 <p className="right-column text">Popular programming language similar to Javascript used to code the user interface</p>
+                <p className="left-column sub-heading">GitHub</p>
+                <p className="right-column text">Version control</p>
             </div>
 
             <h2 className="sub-heading"><strong>Gallery</strong></h2>
@@ -30,11 +34,6 @@ function SalonPage() {
                     <img 
                         src={home1}
                         alt="A screenshot of the website"
-                        style={{ 
-                            width: '100%', 
-                            borderRadius: '15px',
-                            objectFit: 'contain',
-                        }}
                     />
                 </div>
                 <div className="spacer half"></div>
@@ -47,11 +46,6 @@ function SalonPage() {
                     <img 
                         src={customer1}
                         alt="A screenshot of the website"
-                        style={{ 
-                            width: '100%', 
-                            borderRadius: '15px',
-                            objectFit: 'contain',
-                        }}
                     />
                 </div>
                 <div className="spacer half"></div>
@@ -63,11 +57,6 @@ function SalonPage() {
                     <img 
                         src={customer2}
                         alt="A screenshot of the website"
-                        style={{ 
-                            width: '100%', 
-                            borderRadius: '15px',
-                            objectFit: 'contain',
-                        }}
                     />
                 </div>
                 <div className="spacer half"></div>
@@ -80,11 +69,6 @@ function SalonPage() {
                     <img 
                         src={admin1}
                         alt="A screenshot of the website"
-                        style={{ 
-                            width: '100%', 
-                            borderRadius: '15px',
-                            objectFit: 'contain',
-                        }}
                     />
                 </div>
                 <div className="spacer half"></div>
@@ -96,11 +80,6 @@ function SalonPage() {
                     <img 
                         src={admin2}
                         alt="A screenshot of the website"
-                        style={{ 
-                            width: '100%', 
-                            borderRadius: '15px',
-                            objectFit: 'contain',
-                        }}
                     />
                 </div>
                 <div className="spacer half"></div>

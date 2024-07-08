@@ -10,14 +10,12 @@ function AboutPage() {
                 style={{ 
                     width: '40%', 
                     height: '100%', 
-                    borderRadius: '15px',
-                    objectFit: 'contain',
                 }}
             />
             <div 
                 style={{
-                    width: '54%',
-                    margin: '0 0 0 2%'
+                    width: '50%',
+                    margin: '0 0 0 5%'
                 }}
             >
                 <h3 className="heading">Hey! &#128075;</h3>

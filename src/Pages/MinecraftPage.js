@@ -1,6 +1,6 @@
 import '../App.css';
 import './Pages.css';
-import ai_demo from '../assets/ai_demo.gif'
+import ai_demo from '../assets/minecraft-ai/ai-demo.gif'
 
 function MinecraftPage() {
     return (
@@ -20,17 +20,12 @@ function MinecraftPage() {
                 <p className="left-column sub-heading">Mineflayer by PrismarineJS</p>
                 <p className="right-column text">Provided the functions for in-game movement of a player. Based on what Yolo detected, we would call Mineflayer functions.</p>
             </div>
-
             <br></br>
+            
             <h2 className="sub-heading"><strong>Gallery</strong></h2>
             <img 
                 src={ai_demo}
                 alt="A GIF demonstration of the Minecraft AI"
-                style={{ 
-                    width: '100%', 
-                    borderRadius: '15px',
-                    objectFit: 'contain',
-                }}
             />
             <p className="text">A demonstration of the Minecraft AI. Note Yolo's confidence in the action detection in the webcam window. The footage is slightly slowed down and the person demonstrating is one of my partners.</p>
         </div>
