@@ -11,6 +11,7 @@ function HacksPage() {
             <p className="shadow text">2023</p>
             <br></br>
 
+            <p className="text">View the GitHub repository <a href="https://github.com/tikkikkit21/Connect4AI" target="_blank">here</a>!</p>
             <p className="text">VTHacks is one of the largest collegiate hackathons on the East Coast and ranked the #10 MLH Hackathon. For the 11th VTHacks, my team and I decided to build a game agent that would play against other players in the popular game Connect4. I was the lead designer for the website, but I also provided assistance with the AI part of the project at times.</p>
 
             <p className="sub-heading"><strong>Technologies Used</strong></p>
