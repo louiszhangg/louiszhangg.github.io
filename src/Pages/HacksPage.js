@@ -11,7 +11,7 @@ function HacksPage() {
             <p className="shadow text">2023</p>
             <br></br>
 
-            <p className="text">VTHacks is one of the largest collegiate hackathons on the East Coast and ranked the #10 MLH Hackathon. For the 11th VTHacks, my team and I decided to build a game agent that would play against other players in the popular game Connect4. In the end, we were able to create a Connect4 AI that was able to beat most beginner to intermediate players, all hosted on a website that would professional enough to be hosted online. I was the lead designer for the website, but I also provided assistance with the AI part of the project at times.</p>
+            <p className="text">VTHacks is one of the largest collegiate hackathons on the East Coast and ranked the #10 MLH Hackathon. For the 11th VTHacks, my team and I decided to build a game agent that would play against other players in the popular game Connect4. I was the lead designer for the website, but I also provided assistance with the AI part of the project at times.</p>
 
             <p className="sub-heading"><strong>Technologies Used</strong></p>
             <div className="split">
