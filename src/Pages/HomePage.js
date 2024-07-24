@@ -4,7 +4,7 @@ function HomePage() {
     return (
         <div>
             <h1 className="title">Hello,</h1>
-            <p className="sub-heading">My name is Louis Zhang. Glad you're here, feel free to look around.</p>
+            <p className="text">My name is Haoan Zhang. Glad you're here, feel free to look around.</p>
         </div>
     )
 }

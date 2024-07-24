@@ -1,9 +1,15 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import Cursor from './Cursor.js';
-import Sidebar from './Sidebar';
-import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
+import Cursor from './components/Cursor.js';
+import Sidebar from './components/Sidebar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import CVPage from './pages/CVPage';
+import MinecraftPage from './pages/MinecraftPage';
+import SalonPage from './pages/SalonPage';
+import HacksPage from './pages/HacksPage';
+import CoursePage from './pages/CoursePage';
+import OopsPage from './pages/OopsPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("CONTENT");
@@ -19,8 +25,18 @@ function App() {
         return <HomePage />
       case "About":
         return <AboutPage />
+      case "CV":
+        return <CVPage />
+      case "MinecraftAI":
+        return <MinecraftPage />
+      case "Salon App":
+        return <SalonPage />
+      case "VTHacks":
+        return <HacksPage />
+      case "CS Course":
+        return <CoursePage />
       default:
-        return <HomePage />
+        return <OopsPage />
     }
   }
 
